@@ -1,9 +1,9 @@
 # Cycloidal Drive Maker (SolidWorks)
 
 ## Overview
-This repository documents the design and development of a **cycloidal drive reduction mechanism** intended for compact, high-torque robotic and mechatronic applications.
+This repository documents the design and development of a **cycloidal drive reduction mechanism** intended for compact, high-torque robotic and mechatronic applications. This is not a new field, but I found it cool so I wanted to make my own stuff by drawing from several existing repositories for inspiration.
 
-The project focuses on **parametric CAD modelling in SolidWorks**, manufacturing-aware design, and clear engineering documentation rather than a single fixed geometry.
+The project focuses on **parametric CAD modelling in SolidWorks**, manufacturing-aware design, and clear engineering documentation rather than a single fixed geometry. Most existing tools are for other CAD softwares, so I wanted to see if there could be a better method for SolidWorks.
 
 The aim is to provide a **well-engineered reference cycloidal drive**, suitable for learning, modification, and integration into custom actuators or robotic joints.
 
@@ -19,23 +19,19 @@ The aim is to provide a **well-engineered reference cycloidal drive**, suitable 
 ---
 
 ## What Is a Cycloidal Drive
-A cycloidal drive is a high-reduction, low-backlash gearbox that uses an eccentrically driven cycloid disc engaging with a ring of pins.
-
-Compared to conventional gear trains, cycloidal drives offer:
+A cycloidal drive is a high-reduction, low-backlash gearbox that uses an eccentrically driven cycloid disc engaging with a ring of pins. Compared to conventional gear trains, cycloidal drives offer:
 - High torque density  
 - Good shock load resistance  
 - Low backlash  
 - Compact packaging  
 
-These characteristics make them well suited to robotics, automation, and precision motion systems.
-
 ---
 
 ## Repository Structure
 ```
-
-/Docs
+/App
 /CAD
+/Docs
 /Drawings
 
 ```
@@ -58,34 +54,13 @@ The design explicitly considers:
 - Assembly order  
 - CNC, laser-cut, and 3D-printed manufacturing paths  
 
-This is not a purely theoretical model.
-
----
-
-## Key Design Parameters (example)
-> Update these as the design is finalised
-
-- Reduction ratio: variable (function of pin count)  
-- Cycloid discs: single or dual disc configuration  
-- Input: eccentric shaft  
-- Output: pinned carrier plate  
-- Bearings: eccentric input bearing + output support bearing  
-- Lubrication: grease-based  
-
+I plan on printing these drives on my BambuLab P1s and may try to include printer profiles since some slicers already have per-printer tuning. 
 ---
 
 ## Tools Used
 - SolidWorks (parametric CAD, assemblies, drawings)  
 - Excel / hand calculations (geometry and load estimation)  
 - GitHub for version control and documentation  
-
----
-
-## Manufacturing Notes (High-Level)
-- Cycloid disc profile accuracy is critical to smooth operation  
-- Pin diameter tolerance directly affects backlash  
-- Housing stiffness strongly influences bearing life  
-- 3D printing is suitable for proof-of-concept, not final load testing  
 
 Detailed notes are provided in the `Docs` directory.
 
@@ -97,17 +72,9 @@ Assembly and testing procedures are documented to:
 - Ensure repeatable results  
 - Allow basic efficiency and backlash measurements  
 
-This includes exploded views, assembly order, and inspection points.
+This includes exploded views, assembly order, and inspection points to the best of my abilities.
 
----
-
-## Limitations and Future Work
-**Current limitations**
-- No hardened steel components in the initial version  
-- No experimental torque testing yet  
-- Efficiency currently estimated analytically  
-
-**Planned future work**
+Planned future work includes:
 - Load testing  
 - Backlash measurement  
 - Alternative disc profiles  
@@ -121,6 +88,7 @@ This includes exploded views, assembly order, and inspection points.
 Wikipedia
 Cycloidal drive. Wikipedia, The Free Encyclopedia.
 https://en.wikipedia.org/wiki/Cycloidal_drive
+
 Qi, L., Yang, D., Cao, B., Li, Z., Liu, H. (2024).
 Design principle and numerical analysis for cycloidal drive considering clearance, deformation, and friction.
 Alexandria Engineering Journal, Volume 91, Pages 403–418.
@@ -145,6 +113,21 @@ CRC Press, Taylor & Francis Group.
 Nabtesco Motion Control
 RV reducer technical principles and application notes.
 https://www.nabtesco-motioncontrol.com
+
+Suarez, D. (n.d.). GearSolver (GitHub repository). https://github.com/dsuarezv/GearSolver
+
+Younis, O. (n.d.). cycloidal_drive_creator (GitHub repository). https://github.com/osyounis/cycloidal_drive_creator
+
+skavrx. (n.d.). cycloidal-drive-v1 (GitHub repository). https://github.com/skavrx/cycloidal-drive-v1
+
+SakethGG. (n.d.). Cycloidal-Drive-Design (GitHub repository). https://github.com/SakethGG/Cycloidal-Drive-Design
+
+drewim. (n.d.). cycloidal_drive (GitHub repository). https://github.com/drewim/cycloidal_drive
+
+woodenCaliper. (n.d.). CycloidalDrive (GitHub repository). https://github.com/woodenCaliper/CycloidalDrive
+
+iplayfast. (n.d.). CycloidGearBox (GitHub repository). https://github.com/iplayfast/CycloidGearBox
+
 
 ---
 
