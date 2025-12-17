@@ -87,7 +87,7 @@ This is not a purely theoretical model.
 - Housing stiffness strongly influences bearing life  
 - 3D printing is suitable for proof-of-concept, not final load testing  
 
-Detailed notes are provided in the `Manufacturing_Notes` directory.
+Detailed notes are provided in the `Docs` directory.
 
 ---
 
@@ -117,17 +117,34 @@ This includes exploded views, assembly order, and inspection points.
 ---
 
 ## References
-- Cycloidal Drive – Wikipedia  
-  https://en.wikipedia.org/wiki/Cycloidal_drive  
 
-- MIT cycloidal drive notes  
-  https://fab.cba.mit.edu/classes/MIT/863.15/people/jonas/cycloidal_drive.pdf  
+Wikipedia
+Cycloidal drive. Wikipedia, The Free Encyclopedia.
+https://en.wikipedia.org/wiki/Cycloidal_drive
+Qi, L., Yang, D., Cao, B., Li, Z., Liu, H. (2024).
+Design principle and numerical analysis for cycloidal drive considering clearance, deformation, and friction.
+Alexandria Engineering Journal, Volume 91, Pages 403–418.
+https://doi.org/10.1016/j.aej.2024.01.077
 
-- Nabtesco motion control (industry reference)  
-  https://www.nabtesco-motioncontrol.com  
+Shimpo Drive Systems
+Circulute series cycloidal speed reducers – operating principles and structure.
+Shimpo / Nidec-Shimpo technical catalogue.
 
-- SKF bearing engineering resources  
-  https://www.skf.com  
+Sensinger, J. W., & Lipsey, J. H. (2012).
+Cycloid vs. harmonic drives for use in high ratio, single stage robotic transmissions.
+Proceedings of the IEEE International Conference on Robotics and Automation (ICRA).
+
+Johnson, K. L. (1985).
+Contact Mechanics.
+Cambridge University Press.
+
+Radzevich, S. P. (2018).
+Theory of Gearing: Kinematics, Geometry, and Synthesis (2nd ed.).
+CRC Press, Taylor & Francis Group.
+
+Nabtesco Motion Control
+RV reducer technical principles and application notes.
+https://www.nabtesco-motioncontrol.com
 
 ---
 
